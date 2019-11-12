@@ -1,0 +1,73 @@
+body, .slide, .wrap, .slide-content{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.wrap{
+    position: relative;
+
+}
+.slide{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slide-1{
+    background-image: url('images/5.jpeg');
+}
+.slide-2{
+    background-image: url('images/3.jpeg');
+}
+.slide-3{
+    background-image: url('images/sunset.jpg');
+}
+.slide-4{
+    background-image: url('images/1.jpeg');
+}
+.slide-5{
+    background-image: url('images/2.jpeg');
+}
+
+.slide-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.slide-content span{
+    font-size: 5rem;
+    color: white;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+#arrow-left{
+    border-width: 30px 40px 30px 0;
+    left: 0;
+    margin-left: 30px;
+    border-color: transparent black ;
+    margin-left: 30px;
+    left: 0;
+}
+
+#arrow-right{
+    border-width: 30px 0px 30px 40px;
+    right: 0;
+    margin-left: 30px;
+    border-color: 
+    transparent black;
+    right: 0;
+    margin-right: 30px;
+}
+
